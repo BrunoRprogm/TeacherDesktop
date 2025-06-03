@@ -27,6 +27,13 @@ public class HelloController {
         /* Stage = disparo, node= prenda-o, source = identifique de onde veio, scene de que cena veio, window e close =  pegue essa janele e feche*/
     }
 
+    void btnExit(ActionEvent event) throws IOException {
+        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        stage.close();
+    }
+
+
+
     @FXML
     private PasswordField txtPassoword;
 
