@@ -1,4 +1,10 @@
 .button-exit{
+    -fx-background-color: orange;
+    -fx-font-size: 13;
+    -fx-font-weight: bold;
+
+}
+.tabble-view{
     -fx-background-color: transparent;
     -fx-border-style: transparent;
     -fx-cursor: hand;

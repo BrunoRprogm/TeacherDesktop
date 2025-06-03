@@ -1,4 +1,4 @@
-package com.senai.teacherapp;
+package com.senai.teacherdesktop;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -11,18 +11,17 @@ import java.io.IOException;
 public class HelloApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("/com/senai/teacherapp/views/hello-view.fxml"));
+        System.out.println(getClass().getResource("/com/senai/TeacherDesktop/views/hello-view.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getClassLoader().getResource("com/senai/TeacherDesktop/views/hello-view.fxml"));
         Parent root = fxmlLoader.load(); //Condensa minha tela para o tamanho que coloquei no scene builder
         Scene scene = new Scene(root);
-        stage.setTitle("TeacherApp");
+        stage.setTitle("TeacherDesktop");
         stage.setScene(scene);
         stage.show();
-    }
 
+    }
     public static void main(String[] args) {
         launch();
-        System.out.println("Testando o commit");
     }
-
 
 }

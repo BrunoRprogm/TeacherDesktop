@@ -1,4 +1,4 @@
-package com.senai.teacherapp.DAO;
+package com.senai.teacherdesktop.DAO;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

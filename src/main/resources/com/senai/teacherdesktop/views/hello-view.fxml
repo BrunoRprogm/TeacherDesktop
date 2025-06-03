@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="305.0" prefWidth="406.0" style="-fx-background-radius: 15;" styleClass="radius-anchorpane" stylesheets="@../css/styleLogin.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.senai.teacherapp.Controllers.HelloController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="305.0" prefWidth="406.0" style="-fx-background-radius: 15;" styleClass="radius-anchorpane" stylesheets="@../css/styleLogin.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.senai.teacherdesktop.Controllers.HelloController">
    <children>
       <TextField fx:id="txtUser" layoutX="218.0" layoutY="113.0" />
       <Text layoutX="218.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="tittle-User" text="Usuário" />

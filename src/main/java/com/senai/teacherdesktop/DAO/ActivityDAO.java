@@ -1,6 +1,6 @@
-package com.senai.teacherapp.DAO;
+package com.senai.teacherdesktop.DAO;
 
-import com.senai.teacherapp.Models.Activity;
+import com.senai.teacherdesktop.Models.Activity;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -41,6 +41,15 @@ public class ActivityDAO {
             }
         }
         return activities;
+    }
+ // Método que deleta uma atividade
+    public static void deleteActivity(int idActivity) throws SQLException {
+        String sql = "DELETE FROM activity WHERE cd_activity = ?";
+        try (Connection conn = ConnectDB.connectDB();
+         PreparedStatement ps = conn.prepareStatement(sql)) {
+            ps.setInt(1, idActivity);
+            ps.executeUpdate();
+        }
     }
 
 
