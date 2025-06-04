@@ -9,7 +9,7 @@
 
 <AnchorPane prefHeight="526.0" prefWidth="838.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.senai.teacherdesktop.Controllers.PrincipalViewController">
    <children>
-      <Button fx:id="btnExit" layoutX="758.0" layoutY="19.0" mnemonicParsing="false" onAction="#btnExit" prefHeight="32.0" prefWidth="63.0" styleClass="button-exit" stylesheets="@../css/principalView.css" text="Sair">
+      <Button fx:id="btnExit" layoutX="758.0" layoutY="19.0" mnemonicParsing="false" onAction="#confirmLogout" prefHeight="32.0" prefWidth="63.0" styleClass="button-exit" stylesheets="@../css/principalView.css" text="Sair">
          <font>
             <Font size="18.0" />
          </font>
