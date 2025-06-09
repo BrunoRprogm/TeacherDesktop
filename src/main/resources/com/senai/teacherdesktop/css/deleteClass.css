@@ -1,0 +1,12 @@
+.button-delete-class{
+    -fx-background-color: #ff960c;
+    -fx-fill: #ffffff;
+    -fx-font-size: 12;
+    -fx-font-weight: bold;
+}
+
+.anchor-pane{
+    -fx-border-radius: 70;
+    -fx-border-color: orange;
+    -fx-border-width: 1px;
+}
