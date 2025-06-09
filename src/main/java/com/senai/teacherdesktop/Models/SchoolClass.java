@@ -1,33 +1,26 @@
 package com.senai.teacherdesktop.Models;
 
 public class SchoolClass {
-    private Integer idClass;
-    private String nameClass;
-    private Integer quantityStudent;
+
+    private int idTurma;
+    private String nm_turma;
+
+    public void setNm_turma(String nm_turma) {
+        this.nm_turma = nm_turma;
+    }
 
     public SchoolClass() {
     }
 
-    public SchoolClass(Integer idClass, String nameClass, Integer quantityStudent) {
-        this.idClass = idClass;
-        this.nameClass = nameClass;
-        this.quantityStudent = quantityStudent;
+    public SchoolClass(String nm_turma) {
+        this.nm_turma = nm_turma;
     }
 
-    public SchoolClass(String nameClass, Integer quantityStudent) {
-        this.nameClass = nameClass;
-        this.quantityStudent = quantityStudent;
+    public SchoolClass(int idTurma, String nm_turma){
+        this.idTurma = idTurma;
+        this.nm_turma = nm_turma;
     }
 
-    public Integer getIdClass() {
-        return idClass;
-    }
-
-    public String getNameClass() {
-        return nameClass;
-    }
-
-    public Integer getQuantityStudent() {
-        return quantityStudent;
-    }
+    public int getIdTurma() {return idTurma;}
+    public String getNm_turma(){return nm_turma;}
 }
