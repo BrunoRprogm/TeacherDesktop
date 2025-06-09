@@ -6,6 +6,19 @@
 }
 .tabble-view{
     -fx-background-color: transparent;
-    -fx-border-style: transparent;
     -fx-cursor: hand;
+    -fx-border-radius: 30;
+}
+
+.registration-button{
+
+    -fx-background-color: orange;
+    -fx-font-size: 13;
+    -fx-font-weight: bold;
+    -fx-border-radius:0;
+}
+.text-label-enterprise{
+    -fx-fill: #8f8591;
+    -fx-font-size: 10;
+    -fx-font-weight: bold;
 }
