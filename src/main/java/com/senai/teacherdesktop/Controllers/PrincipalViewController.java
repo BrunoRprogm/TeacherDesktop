@@ -13,7 +13,6 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
-import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import java.io.IOException;
 import java.sql.SQLException;
@@ -125,7 +124,7 @@ public class PrincipalViewController {
 
     public void setTxtNameProfessor(User user) {
         if(user != null){
-            txtNomeProfessor.setText("Bem-vindo, " + user.getNome());
+            txtNomeProfessor.setText("Bem-vindo (a) , " + user.getNome());
         }
 
     }
