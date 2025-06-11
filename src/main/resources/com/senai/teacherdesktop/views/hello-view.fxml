@@ -16,7 +16,7 @@
       <Text layoutX="223.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-label-login" text="Seja bem-vindo!" />
       <Text layoutX="218.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="tittle-User" text="Senha" />
       <Text layoutX="172.0" layoutY="297.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-label-enterprise" text="Desenvolvido por M&amp;B Enterprise " />
-      <Button layoutX="238.0" layoutY="208.0" mnemonicParsing="false" onAction="#btnEnter" prefHeight="25.0" prefWidth="109.0" styleClass="button-enter" text="Entrar" />
+      <Button layoutX="238.0" layoutY="202.0" mnemonicParsing="false" onAction="#btnEnter" prefHeight="25.0" prefWidth="109.0" styleClass="button-enter" text="Entrar" />
       <ImageView fitHeight="42.0" fitWidth="66.0" layoutX="337.0" layoutY="272.0">
          <image>
             <Image url="@../media/logoOfOurCompany.png" />
