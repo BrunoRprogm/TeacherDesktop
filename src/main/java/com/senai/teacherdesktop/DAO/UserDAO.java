@@ -28,6 +28,8 @@ public class UserDAO {
                         rs.getString("nome"),
                         rs.getString("email"),
                         rs.getString("senha")
+
+
                 );
             }
 
