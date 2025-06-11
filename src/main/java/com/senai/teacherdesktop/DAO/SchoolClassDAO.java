@@ -46,13 +46,5 @@ public class SchoolClassDAO {
 
     }
 
-    public void excluirTurmaPorId(int id) throws SQLException{
-        String sql = "DELETE from turma where idTurma ?";
-        try(Connection conn = ConnectDB.connectDB();
-        PreparedStatement stmt = conn.prepareStatement(sql)){
-            stmt.setInt(1,id);
-            stmt.executeUpdate();
-        }
-    }
 
 }
