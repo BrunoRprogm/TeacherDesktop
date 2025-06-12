@@ -129,12 +129,14 @@ public class PrincipalViewController {
 
     }
 
+    @FXML
+    public void btnVisuAtividade(ActionEvent actionEvent) throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/senai/teacherdesktop/views/AtividadeView.fxml"));
+        Parent root = loader.load();
 
-
-
-
-
-
-
-
+        Stage stage = new Stage();
+        stage.setTitle("Visualização de atividades");
+        stage.setScene(new Scene(root));
+        stage.show();
+    }
 }
