@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="461.0" prefWidth="651.0" xmlns="http://javafx.com/javafx/23.0.1"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.senai.teacherdesktop.Controllers.AtividadeViewController">
+    <TableView id="tabelaTurmas" layoutX="49.0" layoutY="27.0" prefHeight="407.0" prefWidth="553.0">
+      <columns>
+          <TableColumn id="colunaId" prefWidth="157.0" text=" ID turma"/>
+      </columns>
+    </TableView>
+</AnchorPane>
