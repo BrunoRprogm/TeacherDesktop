@@ -11,35 +11,36 @@
 
 <AnchorPane prefHeight="467.0" prefWidth="718.0" styleClass="tabble-view" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.senai.teacherdesktop.Controllers.PrincipalViewController">
    <children>
-      <Button layoutX="519.0" layoutY="165.0" mnemonicParsing="false" onAction="#btnRegistration" prefHeight="38.0" prefWidth="182.0" styleClass="registration-button" stylesheets="@../css/principalView.css" text="Nova Turma">
+      <Button layoutX="544.0" layoutY="119.0" mnemonicParsing="false" onAction="#btnRegistration" prefHeight="38.0" prefWidth="153.0" styleClass="registration-button" stylesheets="@../css/principalView.css" text="Nova Turma">
          <font>
             <Font name="System Bold Italic" size="16.0" />
          </font>
       </Button>
-      <Button fx:id="btnExit" layoutX="519.0" layoutY="313.0" mnemonicParsing="false" onAction="#confirmLogout" prefHeight="27.0" prefWidth="182.0" styleClass="button-exit" stylesheets="@../css/principalView.css" text="Sair">
+      <Button fx:id="btnExit" layoutX="544.0" layoutY="331.0" mnemonicParsing="false" onAction="#confirmLogout" prefHeight="38.0" prefWidth="153.0" styleClass="button-exit" stylesheets="@../css/principalView.css" text="Sair">
          <font>
             <Font size="18.0" />
          </font>
       </Button>
-      <TableView fx:id="tableListStudent" layoutX="12.0" layoutY="82.0" prefHeight="372.0" prefWidth="488.0">
+      <TableView fx:id="tableListStudent" layoutX="14.0" layoutY="60.0" prefHeight="397.0" prefWidth="517.0">
         <columns>
           <TableColumn fx:id="tableID" prefWidth="95.0" text="Número" />
-          <TableColumn fx:id="tableName" prefWidth="402.0" text="Nome" />
+          <TableColumn fx:id="tableName" prefWidth="283.0" text="Nome" />
+            <TableColumn id="acaoColuna" prefWidth="146.0" text="Ação" />
         </columns>
          <stylesheets>
             <URL value="@../css/principalView.css" />
             <URL value="@../css/userRegistration.css" />
          </stylesheets>
       </TableView>
-      <Text layoutX="256.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Turmas" underline="true" wrappingWidth="69.0">
+      <Text layoutX="242.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Turmas" underline="true" wrappingWidth="69.0">
          <font>
             <Font name="Arial Bold Italic" size="15.0" />
          </font>
       </Text>
-      <Button fx:id="btnExcluirTurma" layoutX="519.0" layoutY="268.0" mnemonicParsing="false" onAction="#btnExcluirTurma" prefHeight="27.0" prefWidth="182.0" styleClass="button-exit" text="Excluir Turma" />
-      <Button layoutX="519.0" layoutY="219.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="182.0" styleClass="button-exit" text="Visualizar Turma" />
-      <Text layoutX="529.0" layoutY="473.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-label-enterprise" text="Desenvolvido por M&amp;B Enterprise " />
-      <Label fx:id="txtNomeProfessor" layoutX="14.0" layoutY="14.0" text="Nome do Professor">
+      <Button fx:id="btnExcluirTurma" layoutX="544.0" layoutY="263.0" mnemonicParsing="false" onAction="#btnExcluirTurma" prefHeight="38.0" prefWidth="153.0" styleClass="button-exit" text="Excluir Turma" />
+      <Button layoutX="544.0" layoutY="197.0" mnemonicParsing="false" onAction="#btnVisuAtividade" prefHeight="38.0" prefWidth="153.0" styleClass="button-exit" text="Visualizar Atividades" />
+      <Text layoutX="544.0" layoutY="453.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="text-label-enterprise" text="Desenvolvido por M&amp;B Enterprise " />
+      <Label fx:id="txtNomeProfessor" layoutX="14.0" layoutY="5.0" text="Nome do Professor">
          <font>
             <Font name="System Bold" size="21.0" />
          </font>
